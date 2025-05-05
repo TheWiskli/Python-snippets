@@ -1,0 +1,23 @@
+from random import randint
+from time import sleep as s
+min_value = 1
+max_value = 100
+
+total_roll = input("Hvor mange ganger skal terningen trilles?: ")
+int_totRoll = int(total_roll)
+
+print("Terninger ruller....")
+s(2)
+print("Resultatene er: ")
+
+list_rull = []
+
+for i in range(int_totRoll):
+    result = randint(min_value, max_value)
+    print(result)
+    res = result
+    list_rull.append(res)
+
+print("Per kast: ", list_rull)
+tot_amount = sum(list_rull)
+print("Totalt i rullen: ", tot_amount)

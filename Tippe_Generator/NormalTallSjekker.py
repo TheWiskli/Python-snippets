@@ -1,0 +1,17 @@
+def count_Occurrences(numbers):
+    occurrences = {}
+
+    for number in numbers:
+        if number in occurrences:
+            occurrences[number] += 1
+        else:
+            occurrences[number] = 1
+    return occurrences
+
+numbers_List = [14,24,31,44,45,23,24,38,42,44,14,24,29,45,48,13,28,29,31,47,17,18,40,43,50,7,8,12,21,43,16,23,30,37,41,6,8,42,49,50,11,16,22,34,46,5,14,35,40,47,6,13,15,20,40,6,15,21,34,48,6,21,23,31,39,26,36,43,47,49,1,17,22,29,31,9,30,34,38,48,4,14,15,20,28,9,20,21,22,38,16,27,33,34,39,11,12,13,23,36,23,32,38,45,49,6,11,16,26,49,2,8,28,32,37,2,8,20,34,40,7,15,17,18,39,4,6,17,31,45,4,6,12,31,38,4,13,16,22,27,2,21,34,40,48,19,26,36,48,49]
+numbers_List.sort()
+result = count_Occurrences(numbers_List)
+
+print("Number Occurrenses:")
+for number, count in result.items():
+    print(f"{number}: {count} times.")
