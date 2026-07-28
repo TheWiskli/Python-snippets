@@ -212,9 +212,9 @@ def play():
 #EuroJackpot Lister
 Euro_MainList_HovedTall = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50]
 Euro_MainList_StjerneTall = [1,2,3,4,5,6,7,8,9,10,11,12]
-#Tall fra september 2023 til første uken i Januar 2024
-Euro_Vinnertall_Hovedtall = ExternListe('Tippe_Generator\Euro_Vinnertall_Hovedtall.txt')
-Euro_Vinnertall_Stjernetall = ExternListe('Tippe_Generator\Euro_Vinnertall_Stjernetall.txt')
+# Tall fra september 2023 til første uken i Januar 2024
+Euro_Vinnertall_Hovedtall = ExternListe('Python-snippets/Tippe_Generator//Euro_Vinnertall_Hovedtall.txt')
+Euro_Vinnertall_Stjernetall = ExternListe('Python-snippets/Tippe_Generator/Euro_Vinnertall_Stjernetall.txt')
 Euro_HovedTall_Generert = []
 Euro_StjerneTall_Generert = []
 
